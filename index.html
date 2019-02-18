@@ -2,47 +2,56 @@
 <html lang="en">
 
 <head>
-    <title>Jeopardy</title>
+  <title>Jeopardy</title>
+  <!--linking bootstrap and jquery with javascript at bottom before body-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   <link rel=“stylesheet” href=”style.css”>
-
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-    <style>
-        body {
-          background-color: whitesmoke;
-        }
-        table, th, td {
-          border: 5px solid black;
-        }
-        th, td {
-          padding: 15px;
-        }
-        table {
-          background-color: blue;
-          margin: 0px auto;
-        }
-        #tableCats {
-          color: white;
-        }
-        td {
-          color: gold;
-          font-size: 40px;
-          font-weight: bold;
-        }
-        </style>
+
+  <!--creating styling for background, table header, table rows, and single cells-->
+  <style>
+    body {
+      background-color: whitesmoke;
+    }
+
+    table,
+    th,
+    td {
+      border: 5px solid black;
+    }
+
+    th,
+    td {
+      padding: 15px;
+    }
+
+    table {
+      background-color: blue;
+      margin: 0px auto;
+    }
+
+    th {
+      color: white;
+    }
+
+    td {
+      color: gold;
+      font-size: 40px;
+      font-weight: bold;
+    }
+  </style>
 
 </head>
 
-<body>
-  <header>
 
+<body>
+  <!--creating navigation header with Game Home & Instructions-->
+  <header>
     <ul class="nav nav-pills nav-fill">
       <li class="nav-item">
         <a class="nav-link active" href="index.html">Game Home</a>
@@ -51,79 +60,79 @@
         <a class="nav-link" href="instructions.html">Instructions</a>
       </li>
     </ul>
-
   </header>
 
-
+  <!--placing Jeopardy original logo atop-->
   <div class="text-center">
     <img src="jeopardy.png" style="width:225px;height:100px;">
   </div>
 
+  <!--creating table and input-->
   <div class="text-center">
-  <table width="40%">
-      <tr id="tableCats">
-            <th class="Cat1">Electric Vehicles</th>
-            <th class="Cat2">Healthy Foods</th>
-            <th class="Cat3">Programming Languages</th>
-            <th class="Cat4">Space Exploration</th>
-            <th class="Cat5">World Hunger</th>
-            <th class="Cat6">Presidents</th>
+    <table width="40%">
+      <tr>
+        <th class="Cat1">Electric Vehicles</th>
+        <th class="Cat2">Healthy Foods</th>
+        <th class="Cat3">Programming Languages</th>
+        <th class="Cat4">Space Exploration</th>
+        <th class="Cat5">World Hunger</th>
+        <th class="Cat6">Presidents</th>
       </tr>
       <tr>
-            <td class="EV100">$100</td>
-            <td class="HF100">$100</td>
-            <td class="PL100">$100</td>
-            <td class="SE100">$100</td>
-            <td class="WH100">$100</td>
-            <td class="P100">$100</td>
+        <td class="EV100">$100</td>
+        <td class="HF100">$100</td>
+        <td class="PL100">$100</td>
+        <td class="SE100">$100</td>
+        <td class="WH100">$100</td>
+        <td class="P100">$100</td>
       </tr>
       <tr>
-          <td class="EV200">$200</td>
-          <td class="HF200">$200</td>
-          <td class="PL200">$200</td>
-          <td class="SE200">$200</td>
-          <td class="WH200">$200</td>
-          <td class="P200">$200</td>
+        <td class="EV200">$200</td>
+        <td class="HF200">$200</td>
+        <td class="PL200">$200</td>
+        <td class="SE200">$200</td>
+        <td class="WH200">$200</td>
+        <td class="P200">$200</td>
       </tr>
       <tr>
-          <td class="EV300">$300</td>
-          <td class="HF300">$300</td>
-          <td class="PL300">$300</td>
-          <td class="SE300">$300</td>
-          <td class="WH300">$300</td>
-          <td class="P300">$300</td>
+        <td class="EV300">$300</td>
+        <td class="HF300">$300</td>
+        <td class="PL300">$300</td>
+        <td class="SE300">$300</td>
+        <td class="WH300">$300</td>
+        <td class="P300">$300</td>
       </tr>
       <tr>
-          <td class="EV400">$400</td>
-          <td class="HF400">$400</td>
-          <td class="PL400">$400</td>
-          <td class="SE400">$400</td>
-          <td class="WH400">$400</td>
-          <td class="P400">$400</td>
+        <td class="EV400">$400</td>
+        <td class="HF400">$400</td>
+        <td class="PL400">$400</td>
+        <td class="SE400">$400</td>
+        <td class="WH400">$400</td>
+        <td class="P400">$400</td>
       </tr>
       <tr>
-          <td class="EV500">$500</td>
-          <td class="HF500">$500</td>
-          <td class="PL500">$500</td>
-          <td class="SE500">$500</td>
-          <td class="WH500">$500</td>
-          <td class="P500">$500</td>
+        <td class="EV500">$500</td>
+        <td class="HF500">$500</td>
+        <td class="PL500">$500</td>
+        <td class="SE500">$500</td>
+        <td class="WH500">$500</td>
+        <td class="P500">$500</td>
       </tr>
-</table>
-      
-
-    </div>
-</div>
+    </table>
 
 
+  </div>
+  </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-crossorigin="anonymous"></script>
-<script defer src="main.js"></script>
+
+  <!--placing js and boodstrap cdn-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script defer src="main.js"></script>
 
 </body>
 

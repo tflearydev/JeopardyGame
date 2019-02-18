@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+<!--linking bootsrap and jquery, with js at bottom above ending body tag-->
+
 <head>
+    <title>Jeopardy Instructions</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -10,10 +14,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <title>Jeopardy Instructions</title>
 </head>
 
 <body>
+    <!--creating nav header with Game Home & Instructions-->
     <header>
 
         <ul class="nav nav-pills nav-fill">
@@ -24,21 +28,20 @@
                 <a class="nav-link active" href="instructions.html">Instructions</a>
             </li>
         </ul>
-
     </header>
+    <!--Instructions to center top of the page-->
     <div class="text-center">
         <h1><em>Instructions</em></h1>
     </div>
 
+    <!--creating 2 cards to represent player 1 & 2, along with first instructions-->
     <div class="card-deck">
-    
         <div class="card">
             <img class="card-img-top" src="obama.jpeg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Player 1</h5>
                 <p class="card-text"><em>Important</em>: After a category is clicked, Player 1 will click the letter
                     <em>"A"</em> on the keyboard to be the first to answer the question.</p>
-
             </div>
         </div>
         <div class="card">
@@ -50,11 +53,11 @@
 
             </div>
         </div>
-        
+
     </div>
 
 
-
+    <!--list of instructions fron 1-6-->
 
     <div class="jumbotron">
         <h5>1. Player 1 and Player 2 each choose if they want to be Obama or Trump.</h5>
@@ -69,18 +72,20 @@
         <p>**They will be prompted a multiple choice pop up question</p>
         <h5>5. If Player answers the question correct, they are awarded the amount of points assigned to that question.
             Then they get to pick the next category.</h5>
-        <p>**if Player answers the question incorrect, the question's points will be subtracted from their overall score and the
+        <p>**if Player answers the question incorrect, the question's points will be subtracted from their overall score
+            and the
             other Player will now pick a category.</p>
         <h5>6. Players continue this pattern until all boxes under the categories are empty.</h5>
     </div>
 
 
-
+    <!--details winenr of game with fireworks-->
     <div class="text-center">
         <img src="fireworks.png">
         <h2>PLAYER WITH THE MOST POINTS WINS!!</h2>
     </div>
 
+    <!--js and bootstrap-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>

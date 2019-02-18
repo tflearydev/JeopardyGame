@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    alert("Everything is ready, let's do this");
+    alert("Make sure you click on and read the Instructions before playing");
 });
