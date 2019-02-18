@@ -1,3 +1,6 @@
-body {
-    background-color: purple;
-}
+table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 15px;
+  }
