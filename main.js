@@ -17,15 +17,33 @@ $('.box').on('click', function () {
     $(this).css('color', 'white');
 })
 
-//create function to bring up the appropriate question from var "questions" list at bottom, while creating prompt to type in answer and add or subtract points
-
+//create function to bring up the appropriate question from var "questions" list at bottom, while creating prompt to type in answer and add or subtract points from players score
+//NEW- really a phase 2 but I needed a way to be competitive. after massive trial and error, you can now click "a" for it to prompt player 1s turn
 $('#ans1').on('click', function () {
+    var mydiv = $('.mydiv');
+    $(document).bind('keydown',function(e){
+       if(e.keyCode == 65) {
+    
     var boxAns1 = prompt(questions[0]);
     if (boxAns1 == "Elon Musk" || boxAns1 == "elon musk" || boxAns1 == "elon" || boxAns1 == "Elon") {
         $(".Player1Points").html(`${score += 100}`)
     }
     else $(".Player1Points").html(`${score -= 100}`)
-})
+}
+    else if(e.keyCode == 76) {
+        
+    var boxAns1 = prompt(questions[0]);
+    if (boxAns1 == "Elon Musk" || boxAns1 == "elon musk" || boxAns1 == "elon" || boxAns1 == "Elon") {
+        $(".Player2Points").html(`${score += 100}`)
+    }
+    else $(".Player2Points").html(`${score -= 100}`)
+}
+    })
+
+
+
+   
+
 
 $('#ans2').on('click', function () {
     var boxAns2 = prompt(questions[1]);
@@ -114,7 +132,7 @@ $('#ans12').on('click', function () {
     }
     else $(".Player1Points").html(`${score -= 200}`)
 })
-/////////////////////
+
 $('#ans13').on('click', function () {
     var boxAns13 = prompt(questions[12]);
     if (boxAns13 == "fisker" || boxAns13 == "Fisker" || boxAns13 == "fisker automotive" || boxAns13 == "Fisker Automotive") {
@@ -163,7 +181,7 @@ $('#ans18').on('click', function () {
     else $(".Player1Points").html(`${score -= 300}`)
 })
 
-/////////////////////
+
 $('#ans19').on('click', function () {
     var boxAns19 = prompt(questions[18]);
     if (boxAns19 == "Lucid Air" || boxAns19 == "lucid air") {
@@ -211,7 +229,7 @@ $('#ans24').on('click', function () {
     }
     else $(".Player1Points").html(`${score -= 00}`)
 })
-/////////////////////
+
 $('#ans25').on('click', function () {
     var boxAns25 = prompt(questions[24]);
     if (boxAns25 == "rivian" || boxAns25 == "Rivian") {
@@ -260,4 +278,6 @@ $('#ans30').on('click', function () {
     else $(".Player1Points").html(`${score -= 500}`)
 })
 
-var questions = ["This person is the founder, CEO, and lead designer of Tesla Motors?", "This leafy green vegetable starts with the word Cab?", "This programming language can be used on the frontend and on the backend with Node.js?","What planet are humans currently aiming to colonize?","Which country is the poorest in the world and similar to Central Africa Republic by GDP?", "Who was the first President of the United States?", "This vehicle was the first production electric vehicle to travel more than 200mph?", "Bugs Bunny loved this vegetable, and it also helps your eyesight", "This programming language is similar to Objective-C, but newer, and also used to develop iPhone apps?", "This person is the foudner of Space Exploration Technologies Inc?", "This city in Michigan of the United States has a water crisis?", "This President is on the $5 bill?", "This luxury EV maker suffered a setback in 2012 due to Hurrican Sandy destroying their entire European shipment, leading to bankruptcy?", "This vegetable resembles broccoli but is white in color?", "Which language is the primary Android development language?", "This entrepreneur is the founder of the Virgin Group and plans to offer space flights by 2020?", "This small country often ranks as the richest country in the world?", "This President was stuck in a bathtub?", "This electric vehicle with the initials LA is set to possibly become Tesla's #1 competitor?", "This food item has long been debated to be either a fruit or vegetable, and is said to be both according to studies?", "This framework allows you to use Javascript to build native like mobile apps?", "This super billionaire entrepreneuer is the founder of Blue Origin space-launch company and has become amongst the top competitors of SpaceX?", "This South American country's school system is crashing because of their terrible economic crisis, along with the average worker becoming very poor?", "As a myth, this President's dentures were made of wood?", "Amazon recently led a $700 million dollar investing round in this electric truck startup?", "These seeds comes from the plant Salvia hispanica and deliver a massive amount of nutrients with very few calories?", "This language is known to be the leader in all AI development and machine learning?", "SpaceX has flown 16 resupply missions to the International Space Station under a partnership with which company?", "This country has the highest level of hunger in the Western Hemisphere and was recently devastated by Hurricane Matthew?", "This president resigned before he could be impeached in 1974"]
+var questions = ["PLAYER 1: This person is the founder, CEO, and lead designer of Tesla Motors?", "PLAYER 2: This person is the founder, CEO, and lead designer of Tesla Motors?", "This leafy green vegetable starts with the word Cab?", "This programming language can be used on the frontend and on the backend with Node.js?","What planet are humans currently aiming to colonize?","Which country is the poorest in the world and similar to Central Africa Republic by GDP?", "Who was the first President of the United States?", "This vehicle was the first production electric vehicle to travel more than 200mph?", "Bugs Bunny loved this vegetable, and it also helps your eyesight", "This programming language is similar to Objective-C, but newer, and also used to develop iPhone apps?", "This person is the foudner of Space Exploration Technologies Inc?", "This city in Michigan of the United States has a water crisis?", "This President is on the $5 bill?", "This luxury EV maker suffered a setback in 2012 due to Hurrican Sandy destroying their entire European shipment, leading to bankruptcy?", "This vegetable resembles broccoli but is white in color?", "Which language is the primary Android development language?", "This entrepreneur is the founder of the Virgin Group and plans to offer space flights by 2020?", "This small country often ranks as the richest country in the world?", "This President was stuck in a bathtub?", "This electric vehicle with the initials LA is set to possibly become Tesla's #1 competitor?", "This food item has long been debated to be either a fruit or vegetable, and is said to be both according to studies?", "This framework allows you to use Javascript to build native like mobile apps?", "This super billionaire entrepreneuer is the founder of Blue Origin space-launch company and has become amongst the top competitors of SpaceX?", "This South American country's school system is crashing because of their terrible economic crisis, along with the average worker becoming very poor?", "As a myth, this President's dentures were made of wood?", "Amazon recently led a $700 million dollar investing round in this electric truck startup?", "These seeds comes from the plant Salvia hispanica and deliver a massive amount of nutrients with very few calories?", "This language is known to be the leader in all AI development and machine learning?", "SpaceX has flown 16 resupply missions to the International Space Station under a partnership with which company?", "This country has the highest level of hunger in the Western Hemisphere and was recently devastated by Hurricane Matthew?", "This president resigned before he could be impeached in 1974"]
+})
+
