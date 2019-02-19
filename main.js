@@ -150,50 +150,50 @@ $('#ans16').on('click', function () {
 $('#ans17').on('click', function () {
     var boxAns17 = prompt(questions[16]);
     if (boxAns17 == "Qatar" || boxAns17 == "qatar") {
-        $(".Player1Points").html(`${score += 400}`)
+        $(".Player1Points").html(`${score += 300}`)
     }
-    else $(".Player1Points").html(`${score -= 400}`)
+    else $(".Player1Points").html(`${score -= 300}`)
 })
 
 $('#ans18').on('click', function () {
     var boxAns18 = prompt(questions[17]);
     if (boxAns18 == "William Taft" || boxAns18 == "william taft" || boxAns18 == "Taft" || boxAns18 == "taft" || boxAns18 == "William Howard Taft" || boxAns18 == "william howard taft") {
-        $(".Player1Points").html(`${score += 500}`)
+        $(".Player1Points").html(`${score += 300}`)
     }
-    else $(".Player1Points").html(`${score -= 500}`)
+    else $(".Player1Points").html(`${score -= 300}`)
 })
 
 /////////////////////
 $('#ans19').on('click', function () {
     var boxAns19 = prompt(questions[18]);
     if (boxAns19 == "Lucid Air" || boxAns19 == "lucid air") {
-        $(".Player1Points").html(`${score += 300}`)
+        $(".Player1Points").html(`${score += 400}`)
     }
-    else $(".Player1Points").html(`${score -= 300}`)
+    else $(".Player1Points").html(`${score -= 400}`)
 })
 
 $('#ans20').on('click', function () {
     var boxAns20 = prompt(questions[19]);
     if (boxAns20 == "tomato" || boxAns20 == "Tomato") {
-        $(".Player1Points").html(`${score += 300}`)
+        $(".Player1Points").html(`${score += 400}`)
     }
-    else $(".Player1Points").html(`${score -= 300}`)
+    else $(".Player1Points").html(`${score -= 400}`)
 })
 
 $('#ans21').on('click', function () {
     var boxAns21 = prompt(questions[20]);
     if (boxAns21 == "React Native" || boxAns21 == "react native") {
-        $(".Player1Points").html(`${score += 300}`)
+        $(".Player1Points").html(`${score += 400}`)
     }
-    else $(".Player1Points").html(`${score -= 300}`)
+    else $(".Player1Points").html(`${score -= 400}`)
 })
 
 $('#ans22').on('click', function () {
     var boxAns22 = prompt(questions[21]);
     if (boxAns22 == "Jeff Bezos" || boxAns22 == "jeff bezos" || boxAns22 == "Bezos" || boxAns22 == "bezos" || boxAns22 == "Jeff" || boxAns22 == "jeff") {
-        $(".Player1Points").html(`${score += 300}`)
+        $(".Player1Points").html(`${score += 400}`)
     }
-    else $(".Player1Points").html(`${score -= 300}`)
+    else $(".Player1Points").html(`${score -= 400}`)
 })
 
 $('#ans23').on('click', function () {
@@ -206,14 +206,58 @@ $('#ans23').on('click', function () {
 
 $('#ans24').on('click', function () {
     var boxAns24 = prompt(questions[23]);
-    if (boxAns24 == "George Washington" || boxAns24 == "GW" || boxAns24 == "Washington" || boxAns18 == "washington" || boxAns18 == "george washington") {
+    if (boxAns24 == "George Washington" || boxAns24 == "GW" || boxAns24 == "Washington" || boxAns24 == "washington" || boxAns24 == "george washington") {
+        $(".Player1Points").html(`${score += 400}`)
+    }
+    else $(".Player1Points").html(`${score -= 00}`)
+})
+/////////////////////
+$('#ans25').on('click', function () {
+    var boxAns25 = prompt(questions[24]);
+    if (boxAns25 == "rivian" || boxAns25 == "Rivian") {
         $(".Player1Points").html(`${score += 500}`)
     }
     else $(".Player1Points").html(`${score -= 500}`)
 })
 
+$('#ans26').on('click', function () {
+    var boxAns26 = prompt(questions[25]);
+    if (boxAns26 == "chia" || boxAns26 == "Chia" || boxAns26 == "chia seeds" || boxAns26 == "chia seed" || boxAns26 == "Chia Seeds" || boxAns26 == "Chia Seed") {
+        $(".Player1Points").html(`${score += 500}`)
+    }
+    else $(".Player1Points").html(`${score -= 500}`)
+})
 
-var questions = ["This person is the founder, CEO, and lead designer of Tesla Motors?", "This leafy green vegetable starts with the word Cab?", "This programming language can be used on the frontend and on the backend with Node.js?","What planet are humans currently aiming to colonize?","Which country is the poorest in the world and similar to Central Africa Republic by GDP?", "Who was the first President of the United States?", "This vehicle was the first production electric vehicle to travel more than 200mph?", "Bugs Bunny loved this vegetable, and it also helps your eyesight", "This programming language is similar to Objective-C, but newer, and also used to develop iPhone apps?", "This person is the foudner of Space Exploration Technologies Inc?", "This city in Michigan of the United States has a water crisis?", "This President is on the $5 bill?", 
-"This luxury EV maker suffered a setback in 2012 due to Hurrican Sandy destroying their entire European shipment, leading to bankruptcy?", "This vegetable resembles broccoli but is white in color?", "Which language is the primary Android development language?", "This entrepreneur is the founder of the Virgin Group and plans to offer space flights by 2020?", "This small country often ranks as the richest country in the world?", "This President was stuck in a bathtub?",
- "This electric vehicle with the initials LA is set to possibly become Tesla's #1 competitor?", "This food item has long been debated to be either a fruit or vegetable, and is said to be both according to studies?", "This framework allows you to use Javascript to build native like mobile apps?", "This super billionaire entrepreneuer is the founder of Blue Origin space-launch company and has become amongst the top competitors of SpaceX?", "This South American country's school system is crashing because of their terrible economic crisis, along with the average worker becoming very poor?", "As a myth, this President's dentures were made of wood?", 
- "Amazon recently led a $700 million dollar investing round in this electric truck startup?", "This seed comes from the plant Salvia hispanica and deliver a massive amount of nutrients with very few calories?", "This language is known to be the leader in all AI development and machine learning?", "SpaceX has flown 16 resupply missions to the International Space Station under a partnership with which company?", "This country has the highest level of hunger in the Western Hemisphere and was recently devastated by Hurricane Matthew?", ""]
+$('#ans27').on('click', function () {
+    var boxAns27 = prompt(questions[26]);
+    if (boxAns27 == "Python" || boxAns27 == "python") {
+        $(".Player1Points").html(`${score += 500}`)
+    }
+    else $(".Player1Points").html(`${score -= 500}`)
+})
+
+$('#ans28').on('click', function () {
+    var boxAns28 = prompt(questions[27]);
+    if (boxAns28 == "NASA" || boxAns28 == "nasa" || boxAns28 == "Nasa") {
+        $(".Player1Points").html(`${score += 500}`)
+    }
+    else $(".Player1Points").html(`${score -= 500}`)
+})
+
+$('#ans29').on('click', function () {
+    var boxAns29 = prompt(questions[28]);
+    if (boxAns29 == "Haiti" || boxAns29 == "haiti") {
+        $(".Player1Points").html(`${score += 500}`)
+    }
+    else $(".Player1Points").html(`${score -= 500}`)
+})
+
+$('#ans30').on('click', function () {
+    var boxAns30 = prompt(questions[29]);
+    if (boxAns30 == "Nixon" || boxAns30 == "nixon" || boxAns30 == "Richard Nixon" || boxAns30 == "richard nixon") {
+        $(".Player1Points").html(`${score += 500}`)
+    }
+    else $(".Player1Points").html(`${score -= 500}`)
+})
+
+var questions = ["This person is the founder, CEO, and lead designer of Tesla Motors?", "This leafy green vegetable starts with the word Cab?", "This programming language can be used on the frontend and on the backend with Node.js?","What planet are humans currently aiming to colonize?","Which country is the poorest in the world and similar to Central Africa Republic by GDP?", "Who was the first President of the United States?", "This vehicle was the first production electric vehicle to travel more than 200mph?", "Bugs Bunny loved this vegetable, and it also helps your eyesight", "This programming language is similar to Objective-C, but newer, and also used to develop iPhone apps?", "This person is the foudner of Space Exploration Technologies Inc?", "This city in Michigan of the United States has a water crisis?", "This President is on the $5 bill?", "This luxury EV maker suffered a setback in 2012 due to Hurrican Sandy destroying their entire European shipment, leading to bankruptcy?", "This vegetable resembles broccoli but is white in color?", "Which language is the primary Android development language?", "This entrepreneur is the founder of the Virgin Group and plans to offer space flights by 2020?", "This small country often ranks as the richest country in the world?", "This President was stuck in a bathtub?", "This electric vehicle with the initials LA is set to possibly become Tesla's #1 competitor?", "This food item has long been debated to be either a fruit or vegetable, and is said to be both according to studies?", "This framework allows you to use Javascript to build native like mobile apps?", "This super billionaire entrepreneuer is the founder of Blue Origin space-launch company and has become amongst the top competitors of SpaceX?", "This South American country's school system is crashing because of their terrible economic crisis, along with the average worker becoming very poor?", "As a myth, this President's dentures were made of wood?", "Amazon recently led a $700 million dollar investing round in this electric truck startup?", "These seeds comes from the plant Salvia hispanica and deliver a massive amount of nutrients with very few calories?", "This language is known to be the leader in all AI development and machine learning?", "SpaceX has flown 16 resupply missions to the International Space Station under a partnership with which company?", "This country has the highest level of hunger in the Western Hemisphere and was recently devastated by Hurricane Matthew?", "This president resigned before he could be impeached in 1974"]
