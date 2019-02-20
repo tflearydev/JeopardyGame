@@ -15,7 +15,7 @@
 <p>VS Code</p>
 <br>
 <h3>Wireframe<h3>
-<img src="wireframe.jpeg">
+<img src="wireframe2.jpeg">
 <br>
 <h3>PLAY BELOW!</h3>
 <a href="http://frosty-babbage-58293a.netlify.com/">Live Project Link</a>
