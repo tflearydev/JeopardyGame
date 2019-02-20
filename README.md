@@ -8,12 +8,12 @@
 <br>
 <h3>Technologies Used</h3>
 <ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>Javascript</li>
-<li>J Query</li>
-<li>Bootstrap</li>
-<li>VS Code</li>
+<li>HTML- imported bootstrap, connected javascript and jquery files, styled webpage, created elements for my table and players score, created navigation header</li>
+<li>CSS- used bootsrap mostly to style, but normal css to override some</li>
+<li>Javascript- to call on and click my boxes while returning questions, input, and output</li>
+<li>J Query- to call on and click my boxes, while returning questions, input, and output</li>
+<li>Bootstrap- styled table and navigation header </li>
+<li>VS Code- my development environment</li>
 </ul>
 
 <br>
