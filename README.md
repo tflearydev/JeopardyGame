@@ -25,6 +25,7 @@
 <br>
 <h3>PLAY BELOW!</h3>
 <a href="http://frosty-babbage-58293a.netlify.com/">Live Project Link</a>
+<a href="https://trello.com/invite/b/daYBgKWq/ce7d3be4278d4e69b33450ae819a72a8/jeopardy-game-creation">My Trello Link</a>
 <br>
 
 <h3>New Features<h3>
