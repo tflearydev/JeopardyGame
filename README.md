@@ -16,6 +16,6 @@
 <h3>Wireframe<h3>
 <img src="wireframe.jpeg">
 <br>
-<h3>Links</h3>
-<p>Github <a href="https://github.com/tflearydev/JeopardyGame.git"></a><p>
+<h3>Live Project</h3>
+<a href="http://frosty-babbage-58293a.netlify.com/">link text</a>
 
