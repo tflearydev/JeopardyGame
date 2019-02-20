@@ -19,6 +19,9 @@
 
 <h3>Wireframe<h3>
 <img src="wireframe2.jpeg">
+<p>**Actually went a little farther than my wireframe to create an entire page for instructions, but didnt include 'past winners' yet
+</p>
+
 <br>
 <h3>PLAY BELOW!</h3>
 <a href="http://frosty-babbage-58293a.netlify.com/">Live Project Link</a>
