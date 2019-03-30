@@ -1,7 +1,7 @@
 <h1>Jeopardy Project</h1>
 <br>
 <h2>Overview</h2>
-<p>Here is my first General Assmebly project. I created a Jeopardy board game that allows multiple players and has questions pertaining to subjects of modern day importance, in which what I feel even the Presidents need to know to further our world.</p>
+<p>Here I created a multi player jeopardy game that pertains questions relating to subjects of modern day importance, including world hunger, programming languages, in which what I feel even the Presidents need to know to further our world.</p>
 <p>
 <p> Player 1 and Player 2 each choose whether they want to be President Obama or President Trump (our latest 2 Presidents). Then the fun begins! Questions include subjects including electrical vehicles(EV), space exploration, world hunger, healthy foods, and programming languages.</p>
 <br>
