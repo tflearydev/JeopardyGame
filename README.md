@@ -2,7 +2,7 @@
 <br>
 <h2>Overview</h2>
 <p>Here I created a multi player jeopardy game that pertains to questions of subjects relating to modern day importance: which includes software development questions, electrical & self-driving vehicle questions, world hunger & healthy foods, space exploration, and presidents.</p>
-<p>These subjects interest me as I focus on providing exponential value to everyday society and furthering the developent of the world. 
+<p>These subjects interest me as I value the importance of providing exponential value to everyday society and furthering the developent of the world. 
 <p>
 <p> Player 1 and Player 2 each choose whether they want to be President Obama or President Trump (our latest 2 Presidents- having no preference). Then the fun begins! Questions include subjects including electrical vehicles(EV), space exploration, world hunger, healthy foods, and programming languages.</p>
 <br>
