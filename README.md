@@ -35,4 +35,3 @@
 <li>More than 2 Players</li>
 <li>3D interactivity</li>
 </ul>
-
