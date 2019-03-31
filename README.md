@@ -1,14 +1,15 @@
 <h1>Jeopardy Project</h1>
 <br>
 <h2>Overview</h2>
-<p>Here is my first General Assmebly project. I created a Jeopardy board game that allows multiple players and has questions pertaining to subjects of modern day importance, in which what I feel even the Presidents need to know to further our world.</p>
+<p>Here I created a multi player jeopardy game that pertains to questions of subjects relating to modern day importance: which includes software development questions, electrical & self-driving vehicle questions, world hunger & healthy foods, space exploration, and presidents.</p>
+<p>These subjects interest me as I value the importance of providing exponential value to everyday society and furthering the developent of the world. 
 <p>
-<p> Player 1 and Player 2 each choose whether they want to be President Obama or President Trump (our latest 2 Presidents). Then the fun begins! Questions include subjects including electrical vehicles(EV), space exploration, world hunger, healthy foods, and programming languages.</p>
+<p> Player 1 and Player 2 each choose whether they want to be President Obama or President Trump (our latest 2 Presidents- having no preference). Then the fun begins! Questions include subjects including electrical vehicles(EV), space exploration, world hunger, healthy foods, and programming languages.</p>
 <br>
 
 <h3>Technologies Used</h3>
 <ul>
-<li>HTML- imported bootstrap, connected javascript and jquery files, styled webpage, created elements for my table and players score, created navigation header</li>
+<li>HTML- imported bootstrap, connected javascript and jquery files, styled webpages, and created elements for my table and players score, while creating a navigation bar</li>
 <li>CSS- used bootsrap mostly to style, but normal css to override some</li>
 <li>Javascript- to call on and click my boxes while returning questions, input, and output</li>
 <li>J Query- to call on and click my boxes, while returning questions, input, and output</li>
