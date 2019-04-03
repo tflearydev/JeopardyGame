@@ -1,4 +1,4 @@
-<h1>Jeopardy Project</h1>
+<h1>World Jeopardy</h1>
 <br>
 <h2>Overview</h2>
 <p>Here I created a multi player jeopardy game that pertains to questions of subjects relating to modern day importance: which includes software development questions, electrical & self-driving vehicle questions, world hunger & healthy foods, space exploration, and presidents.</p>
